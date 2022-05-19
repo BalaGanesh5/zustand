@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import CourseList from "./components/CourseList";
 
 function App() {
-
   return (
     <div className="main-container">
       <h1
@@ -16,6 +15,7 @@ function App() {
         {" "}
         My Course list
       </h1>
+      <p>used zustand for state Management</p>
       <CourseForm />
       <CourseList />
     </div>
